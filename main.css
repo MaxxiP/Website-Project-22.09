@@ -11,6 +11,7 @@
 *
 ************************************/
 
+
 /***********************************
 *           Base
 ************************************/
@@ -71,19 +72,36 @@ a:focus{
 }
 
 .hero-text{
-    font-size: 86px;
+    font-size: 210px;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
     font-weight: bold;
+    border-bottom: 1px solid;
 }
 
 .hero-nav-item{
     display: inline;
-    color: #fff;
-    font-size: 24px;
+    color: #ffffff;
+    font-size: 56px;
     margin: 0 2px 0 2px;
     text-transform: uppercase;
+}
+
+.nav-item{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    color: #9f9f9f;
+    transition: 0.2s ease-in-out;
+}
+
+a:active,
+a:focus{
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
 }
 
 /***********************************
@@ -91,7 +109,7 @@ a:focus{
 ************************************/
 
 
-section:nth-child(2) {
+section:nth-child(even) {
     background: #eaeaea;
     border-bottom: 1px solid inherit;
     border-top: 1px solid inherit;
@@ -99,7 +117,84 @@ section:nth-child(2) {
 
 section{
     margin-bottom: 25px;
+    min-height: 250px;
 }
+
+
+/***********************************
+*           Content
+************************************/
+
+.container-main{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1140px) {
+    .container-main{
+        max-width: 100%;
+        margin: 0 auto; 
+    }
+    
+    .hero-nav-item{
+        font-size: 36px;
+    }
+}
+
+/***********************************
+*           about me
+************************************/
+
+.profile-pic{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 50%;    
+}
+
+
+
+
+/***********************************
+*           about me
+************************************/
+
+
+.badge-pic{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: 10px;
+    float: left;
+    
+}
+
+.badges-section p{
+    margin-top: 35px;
+    margin-left: 170px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
