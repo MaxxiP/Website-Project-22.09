@@ -9,7 +9,7 @@
         <link rel='stylesheet' href='main.css' />
     </head>
     <body>
-        <header class='hero'>
+        <header class='hero' id='hero'>
             <div class='container'>
                 <h1 class='hero-text'>MD</h1>
                 <ul class='hero-nav'>
@@ -24,15 +24,27 @@
                 </ul>
             </div>
         </header>
+        
+        <nav class='nav '>
+            <ul class='base-nav'>
+                <li class='base-nav-item'><a class='a-nav-item' href='#'>About me</a></li>
+                <li class='base-nav-item'>&bull;</li>
+                <li class='base-nav-item'><a class='a-nav-item' href='#'>projects</a></li>
+                <li class='base-nav-item'>&bull;</li>
+                <li class='base-nav-item'><a class='a-nav-item' href='#'>photo</a></li>
+                <li class='base-nav-item'>&bull;</li>
+                <li class='base-nav-item'><a class='a-nav-item' href='#'>video</a></li>   
+            </ul>
+        </nav>
 
         <main class='content'>
             <div class='container-main'>
-                <section>
+                <section class='about' id='about'>
                     <h2>About Me</h2>
                         <img class='profile-pic' src='img/me/small-me.jpg' alt='A Picture of me'/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>            
                 </section>
-                <section>
+                <section class='badges-section'>
                     <h2>Lorem ipsum</h2>
                         <img class='badge-pic' src='img/badge/frontend-foundations-badge.png' alt='A Picture of me'/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>        

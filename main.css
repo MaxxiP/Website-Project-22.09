@@ -63,7 +63,6 @@ a:focus{
     
     height: 100vh;
     background-size: cover;
-    margin-bottom: 50px;
     
     display: flex;
     flex-direction: column;
@@ -105,6 +104,40 @@ a:focus{
 }
 
 /***********************************
+*           Nav
+************************************/
+
+.base-nav{
+    background-color: rgb(158, 207, 255);
+    text-align: center;
+    height: 45px;
+    margin-bottom: 50px;
+}
+
+.base-nav-item{
+    margin: 0 10px 0 10px;
+    display: inline;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.a-nav-item{
+    color: #000;
+    text-decoration: none;
+
+}
+.a-nav-item:hover{
+    color: #535353;
+}
+
+.navbar-fixed-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+/***********************************
 *           Sections
 ************************************/
 
@@ -144,6 +177,10 @@ section{
 /***********************************
 *           about me
 ************************************/
+
+.about{
+    margin-top: 95px;
+}
 
 .profile-pic{
     width: 250px;
